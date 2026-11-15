@@ -27,6 +27,7 @@ composer install && composer test   # phpunit
 - Stay in the `0.1.x` line; a clone inherits it, and the host pins `^0.1.x`.
 - The lint script lives in tds-shared (`scripts/lint-primitives.mjs`); never copy it back into a repo.
 - Versions move via the release workflow only.
+- Follows the TDS quality standard (`../tds-ops/standards/quality.md`): no AI slop, clean code.
 
 ## Topic files
 
