@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { Skeleton } from "@tracht-digital-solutions/tds-shared/components";
+import { Skeleton } from "@tracht-digital-labs/tds-shared/components";
 
 /**
  * TEMPLATE hydrated widget body. Fetch your widget's `dataEndpoint` (via the

@@ -1,9 +1,9 @@
-import { defineExtension } from "@tracht-digital-solutions/tds-frontend-contract";
+import { defineExtension } from "@tracht-digital-labs/tds-frontend-contract";
 
 /**
  * TEMPLATE extension manifest. Clone this repo, then rename:
  *   - the id ("template" → your extension id, kebab-case)
- *   - every "@tracht-digital-solutions/tds-ext-template/..." specifier to your
+ *   - every "@tracht-digital-labs/tds-ext-template/..." specifier to your
  *     package name (island/entrypoint paths)
  *   - the permission/nav/widget/settings/route ids + labels
  * See README.md for the full checklist.
@@ -33,7 +33,7 @@ export default defineExtension({
     {
       id: "template-widget",
       title: "Vorlage",
-      island: "@tracht-digital-solutions/tds-ext-template/widgets/Widget.astro",
+      island: "@tracht-digital-labs/tds-ext-template/widgets/Widget.astro",
       size: "md",
       permission: "template:read",
       dataEndpoint: "/template/summary",
@@ -44,14 +44,14 @@ export default defineExtension({
     {
       id: "template",
       label: "Vorlage",
-      island: "@tracht-digital-solutions/tds-ext-template/islands/Settings.astro",
+      island: "@tracht-digital-labs/tds-ext-template/islands/Settings.astro",
       order: 100,
     },
   ],
   routes: [
     {
       pattern: "/template",
-      entrypoint: "@tracht-digital-solutions/tds-ext-template/pages/Index.astro",
+      entrypoint: "@tracht-digital-labs/tds-ext-template/pages/Index.astro",
       permission: "template:read",
     },
   ],

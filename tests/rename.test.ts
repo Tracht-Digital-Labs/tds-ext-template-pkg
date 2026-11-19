@@ -81,7 +81,7 @@ describe("the clone checklist", () => {
   });
 
   it("names the package after the same token", () => {
-    expect(pkg.name).toBe(`@tracht-digital-solutions/tds-ext-${TOKEN}`);
+    expect(pkg.name).toBe(`@tracht-digital-labs/tds-ext-${TOKEN}`);
   });
 
   it("carries NOTHING left over from a real extension", () => {
